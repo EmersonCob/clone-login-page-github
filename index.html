@@ -5,47 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Sign in to GitHub</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Kiwi+Maru:wght@300&display=swap" rel="stylesheet">    <title>Sign in to GitHub</title>
 </head>
 <body>
-    <div>
+    <div class="box-body">
         <div>
-            <img src="./svg/github.svg" alt="" srcset="">
-            <a href="https://github.com/EmersonCob"></a>
+            <div class="imgSvg">
+                <img src="./svg/github.svg" alt="" srcset="">
+                <a href="https://github.com/EmersonCob"></a>
+            </div>
         </div>
         <div>
-            <h1>Sign in to GiHub</h1>
+            <div class="box-title">
+                <p>Sign in to GiHub</p>
+            </div>
+            <div class="box-input">
+                <form action="">
+                    <div class="username">
+                        <label>Username or email address</label>
+                        <input type="text" name="Username or email address" id="username">
+                    </div>
+                    <div clas="password">
+                        <label for="">Password</label>
+                        <a href="#">Forgot password</a>
+                        <input type="password" name="Password" id="password">
+                    </div>
+                    <div>
+                        <input  class="button" type="button" value="Sign in" name="Sign in">
+                    </div>
+                </form>
+            </div>
+            <div class="newAccount">
+                New to GitHub?
+                <a href="#">Create an account.</a>
+            </div>
         </div>
-    </div>
-    <div>
-        <div>
-            <form action="">
-                <div>
-                    <label>Username or email address</label>
-                    <input type="text" name="Username or email address" id="">
-                </div>
-                <div>
-                    <label for="">Password</label>
-                    <a href="#">Forgot password</a>
-                    <input type="password" name="Password" id="">
-                </div>
-                <div>
-                    <input type="button" value="Sign in" name="Sign in">
-                </div>
-            </form>
+        <div class="footer-bar">
+            <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Contact GitHub</a></li>
+            </ul>
         </div>
-        <div>
-            New to GitHub?
-            <a href="#">Create an account.</a>
-        </div>
-    </div>
-    <div class="footer-bar">
-        <ul>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Security</a></li>
-            <li><a href="#">Contact GitHub</a></li>
-        </ul>
     </div>
 </body>
 </html>

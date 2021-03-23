@@ -3,3 +3,42 @@
     padding: 0;
 }
 
+.box-body {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(179, 170, 170);
+}
+.imgSvg {
+    padding: 32px 22px;
+}
+
+.box-title {
+    font-size: 22px;
+    padding: 5px;
+}
+
+.box-input {
+    border: 1px solid;
+    border-color: #f6f8fa;
+    border-radius: 5px;
+    margin-top: 16px;
+    padding: 20px;
+    width: 266px;
+    height: 186px;
+    background-color: #f6f8fa;
+    display: inline-block;
+}
+
+.button {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+    height: 32px;
+    padding: 5px 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #2ea44f;
+}
