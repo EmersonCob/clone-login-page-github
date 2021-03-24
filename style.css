@@ -38,12 +38,12 @@
 .username, .password {
     font-size: 10px;
     text-align: left;
-    margin: 25px 0 0 0;
+    margin-top:  20px;
 }
 
 .inputuser, .inputpassword {
     width: 252px;
-    height: 22px;
+    height: 24px;
     border-radius: 5px;
     margin: 8px 0 0 0;
 }
