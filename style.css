@@ -16,7 +16,7 @@
 }
 
 .imgSvg {
-    padding: 32px 22px;
+    padding: 32px 0 20px;
 }
 
 .box-title {
@@ -26,7 +26,7 @@
 
 .box-input {
     border: 1px solid #d1d5da;
-    border-radius: 5px;
+    border-radius: 7px;
     margin-top: 14px;
     padding: 20px;
     width: 266px;
@@ -50,10 +50,24 @@
 }
 
 .inputuser, .inputpassword {
-    width: 252px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+    width: 246px;
     height: 24px;
     border-radius: 5px;
+    border: 1px solid #d1d5da;
     margin: 8px 0 0 0;
+    padding: 0 0 0 10px;
+}
+
+.inputuser:hover, .inputpassword:hover {
+    box-shadow: 0 0 0 2px #719ECE;
+}
+
+input:focus, .inputpassword:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: solid 0 0 8px #719ECE;
 }
 
 .title-password {
@@ -75,14 +89,20 @@ a {
     border: none;
     border-radius: 5px;
     color: white;
+    background-color: #51a569;
+    cursor: pointer;
+}
+
+.button:hover {
     background-color: #2ea44f;
+    transition: all 0.5ms;
 }
 
 .newAccount {
     font-size: 12px;
     justify-content: center;
     border: 1px solid #d1d5da;
-    border-radius: 5px;
+    border-radius: 7px;
     margin: 16px 0 10px;
     padding: 15px 20px;
     width: 268px;
@@ -93,5 +113,16 @@ a {
     align-items: center;
     text-align: center;
     justify-content: center;
+}
 
+.list {
+    margin: 40px 0 0;
+    padding: 40px 0 0;
+}
+
+.terms, .privacy, .security, .contact {
+    font-size: 10px;
+    margin: 7px;
+    list-style: none;
+    display: inline;
 }
